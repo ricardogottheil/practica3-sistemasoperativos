@@ -1,0 +1,18 @@
+Done!
+Filename: punto4.py
+
+Line #    Mem usage    Increment  Occurences   Line Contents
+============================================================
+     6     17.2 MiB     17.2 MiB           1   @profile
+     7                                         def main():
+     8     17.2 MiB      0.0 MiB           1       arrayNumbers = []
+     9                                         
+    10     17.2 MiB      0.0 MiB        1001       for i in range(1000):
+    11     17.2 MiB      0.0 MiB        1000           n = random.randint(0,100)
+    12     17.2 MiB      0.0 MiB        1000           arrayNumbers.append(n)
+    13                                         
+    14     17.2 MiB      0.0 MiB           1       del arrayNumbers
+    15                                          
+    16     17.2 MiB      0.0 MiB           1       print('Done!')
+
+
